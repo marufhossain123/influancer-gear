@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-background{
+    background-color: bisque;
+}
+.nav-contianer{
+    display: flex;
+    border: 1px solid blue;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.menu-container{
+    border: 1px solid peru;
+}
+.nav-title{
+    border: 1px solid purple;
+}
+.nav-menu{
+    display: flex;
+    border: 2px solid red;
+}
+.menu-bar{
+    margin-right: 30px;
+    list-style: none;
+}
+.menu-bar a{
+    text-decoration: none;
+    font-weight: 600;
+}
